@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ram Vaidya</title>
+    <!-- Tailwind CSS CDN - Ensure this is loaded for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom Font (Inter) - Optional, but good for consistent design -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      /* Apply Inter font globally and set a default background */
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #0a192f; /* Dark background to match the ConstellationCanvas */
+      }
+      /* Ensure smooth scrolling for anchor links */
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+</head>
+<body>
+    <!-- The root div where your React application will be mounted -->
+    <div id="root"></div>
+    <!-- The script tag that loads your React application.
+         For Vite, the entry point is typically src/main.jsx or src/main.tsx.
+         Adjust the path if your main entry file is different (e.g., src/App.jsx). -->
+    <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>

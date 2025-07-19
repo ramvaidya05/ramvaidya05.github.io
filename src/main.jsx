@@ -1,8 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client'; // Import from 'react-dom/client' for React 18+
-import App from './App.jsx'; // Import your App component
-import './index.css'; // Assuming you'll have a global CSS file for Tailwind directives
-
+import ReactDOM from 'react-dom/client'; 
+import App from './App.jsx'; 
+import './index.css'; 
 // Get the root element from index.html
 const rootElement = document.getElementById('root');
 

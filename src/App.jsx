@@ -182,26 +182,26 @@ const App = () => {
     const portfolioData = {
         name: "Ram Vaidya",
         title: "Software Engineer",
-        tagline: "Love Building innovate solutions and solving complex problems",
+        tagline: "Love Building innovative solutions and solving complex problems",
         about: "Hi, I am a Software Engineer currently pursuing my Masters in Computer Science at Cornell University. I love swimming, watching movies and playing pickleball.",
         projects: [
             {
-                title: "E-commerce Platform",
-                description: "A full-featured e-commerce website with product listings, a shopping cart, and a secure checkout process.",
-                tech: ["React", "Node.js", "PostgreSQL", "Stripe API"],
+                title: "Polyp Detection and Measurement",
+                description: "A Python application for detecting and measuring polyps in endoscopic images using PyTorch for CNN model development and OpenCV for advanced image preprocessing, achieving 85% accuracy on the Kvasir dataset.",
+                tech: ["React", "Node.js", "Pytorch", "Python"],
                 liveUrl: "#",
                 repoUrl: "#",
             },
             {
-                title: "Project Management Tool",
-                description: "A collaborative platform for teams to manage tasks, track progress, and communicate effectively.",
-                tech: ["Next.js", "TypeScript", "Firebase", "Tailwind CSS"],
+                title: "Secure Learning AI",
+                description: "A computer vision-based school security system using Python and YOLOv7 for real-time object detection with 90% accuracy, integrating Twilio for automated SMS alerts to law enforcement, which significantly improved threat identification and response times",
+                tech: ["OpenCV", "Python", "API"],
                 liveUrl: "#",
                 repoUrl: "#",
             },
             {
-                title: "Personal Blog",
-                description: "A dynamic blog application with a custom CMS for creating and managing posts.",
+                title: "My Personal Blog",
+                description: "A place for my thoughts.",
                 tech: ["Vue.js", "Express", "MongoDB"],
                 liveUrl: "#",
                 repoUrl: "#",
@@ -251,7 +251,7 @@ const App = () => {
             email: "vaidyaram0501@gmail.com",
             linkedin: "https://www.linkedin.com/in/ram-vaidya/",
             github: "https://github.com/ramvaidya05",
-            resume: "/Ram_Resume_Intern.pdf",
+            resume: "https://drive.google.com/file/d/1DqB5m8BWrjxctUqxm0OOtmr1ZP3sKhmS/view?usp=sharing",
         },
     };
 
